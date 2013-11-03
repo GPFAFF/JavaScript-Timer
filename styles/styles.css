@@ -1,0 +1,98 @@
+body{
+	background: url('../img/cleveland.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-top: none;
+	
+}
+
+header{
+	
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 28px;
+	margin: 0 auto;
+}
+
+h3{
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 40px;
+	padding: 25px;
+	text-align: center;
+	
+}
+.sports{
+	margin: 0 auto;
+	width:1280px;
+}
+.Browns, .Indians,.Cavs{
+	height: 460px;
+	width: 355px;
+	float: left;
+	padding: 25px;
+
+}
+
+.Browns img, .Indians img, .Cavs img{
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+.counter{
+	font-size: 38px;
+	padding: 25px;
+	margin-top: 20px;
+	text-shadow: 3px 3px 3px black;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#counter2{
+	font-size: 38px;
+	padding: 25px;
+	margin-top: 20px;
+	text-shadow: 3px 3px 3px black;
+	display: block;
+}
+#counter3{
+	font-size: 38px;
+	padding: 25px;
+	margin-top: 20px;
+	text-shadow: 3px 3px 3px black;
+	display: block;
+}
+
+strong{
+	color: white;
+}
+span{
+	color: white;
+	display: block;
+	overflow: hidden;
+	font-family: 'Mouse Memoirs', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+}
+
+months{
+	text-shadow: 3px 3px 3px black;
+}
+
+.Browns img:hover, .Cavs img:hover, .Indians img:hover{
+	animation-duration: infinite;
+	-moz-transition: 4s;
+	-webkit-transition: 4s;
+	transform: rotateY(360deg);
+	-moz-transform:rotateY(360deg);
+	-webkit-transform:rotateY(360deg);
+	-webkit-transform-iteration-count: infinite;
+}
