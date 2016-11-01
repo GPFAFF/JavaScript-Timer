@@ -68,6 +68,6 @@ CountUp.prototype.updateCounter=function(){
 window.onload=function(){ 
 	new CountUp('December 27, 1964 19:00:00', 'counter'); 
 	new CountUp('October 11, 1948 19:00:00', 'counter2'); 
-	new CountUp('October 14, 1970 19:00:00', 'counter3'); 
+	new CountUp('June 19, 2016 19:00:00', 'counter3'); 
 	}
  
